@@ -18,3 +18,26 @@ h2 {
     flex-direction: column;
     align-items: center;
 }
+input{
+    width: 600px;
+}
+
+.title-lable {
+    margin: 2vh 0 1vh 0;
+    font-size:large;
+}
+
+.box{
+    width: 600px;
+    height: 300px;
+    border: 5px solid black;
+    margin-top: 15px;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    background-color: lightskyblue;
+    color:black;
+    border: none;
+}
