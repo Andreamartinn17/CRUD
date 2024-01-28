@@ -1,0 +1,21 @@
+{
+    "movies": [
+        {
+            "id": 1,
+            "title": "Shrek",
+            "gender": "Animación"
+        },
+
+        {
+            "id": 2,
+            "title": "Moulin Rouge",
+            "gender": "Musical"
+        },
+
+        {
+            "id": 3,
+            "title": "Amélie",
+            "gender": "Comedia/Romance"
+        }
+    ]
+}
