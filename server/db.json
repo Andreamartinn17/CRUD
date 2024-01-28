@@ -1,0 +1,28 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "name": "buenísimo",
+      "gender": "comedia",
+      "year": 1993
+    },
+    {
+      "id": "2",
+      "name": "malisimo",
+      "gender": "terror",
+      "year": 1999
+    },
+    {
+      "id": "3",
+      "name": "chachi",
+      "gender": "guay",
+      "year": 1995
+    },
+    {
+      "id": "4",
+      "name": "mulan",
+      "gender": "chula",
+      "year": "1993"
+    }
+  ]
+}
