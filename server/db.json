@@ -3,19 +3,22 @@
         {
             "id": 1,
             "title": "Shrek",
-            "gender": "Animación"
+            "gender": "Animación",
+            "year": 2001
         },
 
         {
             "id": 2,
             "title": "Moulin Rouge",
-            "gender": "Musical"
+            "gender": "Musical",
+            "year": 2001
         },
 
         {
             "id": 3,
             "title": "Amélie",
-            "gender": "Comedia/Romance"
+            "gender": "Comedia/Romance",
+            "year": 2001
         }
     ]
 }
