@@ -1,3 +1,4 @@
+  //GET 
   async function getMovies (){
     const moviesList = await fetch ("http://localhost:3000/movies");
     const dataMovies = await moviesList.json();
@@ -15,13 +16,14 @@
         <hr></div>`
     })
  }
+ //DELETE
 async function deleteMovie (id){
     const result = await fetch (`http://localhost:3000/movies/${id}`,
     {method: "Delete"})
     return result
 }
 
-function countMovies() { //función para contar el nº de pelis y añadirlas en la siguiente función
+function countMovies() { //función para contar el nº de pelis y añadirlas en la función de crear
     return document.querySelectorAll(".movie-item").length;
 }
 
@@ -29,7 +31,7 @@ function countMovies() { //función para contar el nº de pelis y añadirlas en 
 async function createMovie() { 
     const totalMovies = countMovies() + 1;
     const newMovie = {
-        "id": `${totalMovies}`, //la `` mete variables al string que va entre las "", la $ significa que es una variable de JS
+        "id": `${totalMovies}`, //la `` mete variables al string, la $ significa que es una variable de JS
         "name": document.getElementById("tittle").value,
         "gender": document.getElementById("gender").value,
         "year": document.getElementById ("year").value
