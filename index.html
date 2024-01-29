@@ -9,13 +9,13 @@
 <body>
     <div class="container">
         <h2>Pelis guays</h2>
-        <form class="form">
-            <label class="title-lable">Título</label><input required>
-            <label class="title-lable">Género</label><input required>
-            <label class="title-lable">Año de estreno</label><input required>
-            <button class="title-lable">A la cajita</button>
+        <form class="form" action="http://localhost:3000/movies" method="post" name="f" onsubmit="submitForm(this)">
+            <label class="title-lable">Título</label><input name="ft" required>
+            <label class="title-lable">Género</label><input name="fg" required>
+            <label class="title-lable">Año de estreno</label><input name="fy" required>
+            <button type="submit" class="title-lable">A la cajita</button>
         </form>
-        <div class="box"></div>
+        <div class="box" id="cajita"></div>
     </div>
 </body>
 </html>
