@@ -13,6 +13,7 @@
         <p>${movie.gender}</p>
         <p><small>${movie.year}</small></p>
         <button type="button" onclick="deleteMovie(${movie.id})">Delete</button>
+        <button type="button" onclick="editMovie"('${movie.id}')">Edit</button>
         <hr></div>`
     })
  }
@@ -43,7 +44,5 @@ async function createMovie() {
     }
     )
 }
-
-
 printMovies ();
 
