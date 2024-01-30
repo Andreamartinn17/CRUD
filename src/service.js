@@ -9,9 +9,9 @@
     let movies = await getMovies();
     movies.map (movie => {
         moviesSectionTag.innerHTML += // podemos añadir en los elementos html una clase
-        `<div class="movie-item"><h3>${movie.name}</h3> 
-        <p>${movie.gender}</p>
-        <p><small>${movie.year}</small></p>
+        `<div class="movie-item"><h3 class="flex-center">${movie.name}</h3> 
+        <p class="flex-center">${movie.gender}</p>
+        <p class="flex-center"><small>${movie.year}</small></p>
         <button type="button" onclick="deleteMovie('${movie.id}')">Delete</button>
         <button type="button" onclick="editMovie('${movie.id}')">Edit</button>
         <hr></div>`
