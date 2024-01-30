@@ -14,7 +14,8 @@
         <p class="flex-center"><small>${movie.year}</small></p>
         <button type="button" onclick="deleteMovie('${movie.id}')">Delete</button>
         <button type="button" onclick="editMovie('${movie.id}')">Edit</button>
-        <hr></div>`
+        </div>
+        <hr>`
     })
  }
  //DELETE
