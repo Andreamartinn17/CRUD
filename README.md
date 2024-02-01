@@ -23,9 +23,7 @@ Este proyecto es una aplicación CRUD (Crear, Leer, Actualizar, Eliminar) que pe
 
 3. Instala las dependencias del frontend y del backend utilizando el siguiente comando: npm install
 
-4. Configura la conexión a la base de datos en el archivo de configuración correspondiente.
-
-5. Inicia el servidor y la aplicación: npm start
+4. Inicia el servidor: npm run api
 
 ## Uso
 
